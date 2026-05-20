@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
         }
     } catch (error) {
         console.error(error.message);
-        res.send("Error calling API");
+        res.send("Error calling the API");
     }
 });
 
